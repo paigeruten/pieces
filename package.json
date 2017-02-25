@@ -1,0 +1,22 @@
+{
+  "name": "count-pieces",
+  "version": "0.1.0",
+  "description": "Gives you an inventory of tokens needed to write a given program",
+  "keywords": [
+    "tokenize"
+  ],
+  "main": "index.js",
+  "bin": {
+    "pieces": "./bin/pieces.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Ruten <jeremy.ruten@gmail.com> (http://viewsourcecode.org)",
+  "repository": "yjerem/pieces",
+  "license": "MIT",
+  "dependencies": {
+    "tokenizer-array": "^1.1.0"
+  }
+}
+
